@@ -1,2 +1,1 @@
-# lms-starter
-Starter LMS
+This page is used to create the bootstrap start up page.
