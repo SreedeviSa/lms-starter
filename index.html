@@ -284,7 +284,6 @@
                                                     EC2-Detail Overview
                                                 </button>
                                         </div>
-                                        <div style="display: table-cell;"> <a href="https://player.vimeo.com/external/336769796.hd.mp4?s=e64d45942ce7a2c23d4b1044ec1613ca68bd7fa8&profile_id=175" target="_blank"><button type="button" class="btn btn-danger" ><i class="fa fa-download"></i> Download</button></a></div>
                                     </div>
                                 </div>
                             </h5>
@@ -322,9 +321,23 @@
 
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title"> Route 53 </h5>
+                <h5 class="card-title"> Section 4: Route 53 </h5>
                 <p class="card-text"></p>
                 <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="heading17">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                                 Route 53: Quick Introduction
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#accordion">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://player.vimeo.com/video/339534465" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card">
                         <div class="card-header" id="heading15">
                             <h5 class="mb-0">
@@ -333,11 +346,79 @@
                                 </button>
                             </h5>
                         </div>
-
                         <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordion">
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Buy a Domain Name from GoDaddy</li>
+                                    <li class="list-group-item">Create an EC2 instance and use the Domain Name to access the EC2 instance</li>
+                                </ul>
+                            </div>
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe src="https://player.vimeo.com/video/339492740" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                             </div>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <div class="card-header" id="heading16">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
+                                 Lab 2 : Create an EC2 instance, configure Route 53 to work with the EC2 instance
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#accordion">
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Create an EC2 instance</li>
+                                    <li class="list-group-item">Work with Route 53 to link it to the EC2 instance</li>
+                                </ul>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://player.vimeo.com/video/339528140" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                     <div class="card">
+                        <div class="card-header" id="heading18">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18">
+                                 Lab 3 : Routing Policies
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#accordion">
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Routing Policies in Route 53</li>
+                                </ul>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://player.vimeo.com/video/339592184" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                  <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="heading19">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                                 References
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordion">
+
+                            <ul class="list-group">
+                                <li class="list-group-item"><a target="_blank" href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-multivalue" class="btn btn-primary">Different Types of Routing Policies</a></li>
+                                <li class="list-group-item"><a target="_blank" href="https://aws.amazon.com/premiumsupport/knowledge-center/multivalue-versus-simple-policies/" class="btn btn-primary">Differences between Simple vs Multivalue Routing Policy</a></li>
+                                <li class="list-group-item"><a target="_blank" href="https://stackoverflow.com/questions/49692537/weighted-traffic-flow-document-in-aws-is-not-working-as-expected" class="btn btn-primary">Weighted Routing Policy</a></li>
+                            </ul>
+                            
                         </div>
                     </div>
                 </div>
